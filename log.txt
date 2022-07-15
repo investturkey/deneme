@@ -1,0 +1,7 @@
+started stdio logging in file
+Mirror launched on Fri, 15 Jul 2022 15:49:41 by HTTrack Website Copier/3.49-2 [XR&CO'2014]
+mirroring https://www.bndmarkets.com/tr/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar with the wizard help..
+Done.
+Thanks for using HTTrack!
+status code 0, 4 errors, 0 warnings
+building top index to /storage/emulated/0/HTTrack/Websites/ using templates /storage/emulated/0/Android/data/com.httrack.android/cache/resources/

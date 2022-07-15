@@ -1,0 +1,8 @@
+-@i4 -O /storage/emulated/0/HTTrack/Websites/BmcTrader -A25000k%Px%q0u1s2%s%u%fk%nDaK0H0N0zp3 https://www.bndmarkets.com/tr/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2017], %s -->" -%l LANGUAGE_ISO,*
+File generated automatically on Fri, 15 Jul 2022 15:49:41, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

@@ -1,0 +1,277 @@
+HTTrack3.49-2 launched on Fri, 15 Jul 2022 15:49:41 at https://www.bndmarkets.com/tr/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(httrack -@i4 -O /storage/emulated/0/HTTrack/Websites/BmcTrader -A25000k%Px%q0u1s2%s%u%fk%nDaK0H0N0zp3 https://www.bndmarkets.com/tr/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2017], %s -->" -%l LANGUAGE_ISO,* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:49:41	Info: 	engine: start
+15:49:41	Info: 	Warning: could not detect encoding for: primary/primary
+15:49:41	Info: 	engine: check-html: primary/primary
+15:49:43	Info: 	engine: transfer-status: link error (404, 'Not Found'): https://www.bndmarkets.com/robots.txt
+15:49:43	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/ -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/index.html
+15:49:43	Info: 	engine: check-html: https://www.bndmarkets.com/tr/
+15:49:43	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/favicon.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/favicon.png
+15:49:44	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/favicon.png
+15:49:46	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Css/bootstrap.min.css -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Css/bootstrap.min.css
+15:49:46	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Css/main.css?v=17 -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Css/main1c07.css
+15:49:47	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Css/swiper.min.css -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Css/swiper.min.css
+15:49:47	Info: 	engine: transfer-status: link error (404, 'Not Found'): https://www.bndmarkets.com/Content/Css/style.tr.css?v=2
+15:49:49	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Css/sidemenu.css?v=1.2 -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Css/sidemenu7839.css
+15:49:50	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/poppins.css -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/poppins.css
+15:49:51	Info: 	engine: transfer-status: link recorded: https://unpkg.com/aos@2.3.1/dist/aos.css -> /storage/emulated/0/HTTrack/Websites/BmcTrader/unpkg.com/aos@2.3.1/dist/aos.css
+15:49:52	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/About/terms-and-conditions -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/About/terms-and-conditions.html
+15:49:53	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/About/privacy-policy -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/About/privacy-policy.html
+15:49:53	Info: 	engine: transfer-status: link error (404, 'Not Found'): https://www.bndmarkets.com/tr/About/risk-disclousre
+15:49:54	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/logo_light.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/logo_light.png
+15:49:56	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Assets/Commodities -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Assets/Commodities.html
+15:49:57	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Assets/Cryptocurrencies -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Assets/Cryptocurrencies.html
+15:49:58	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Assets/Currencies -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Assets/Currencies.html
+15:49:59	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Assets/ETF -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Assets/ETF.html
+15:50:00	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Assets/Indices -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Assets/Indices.html
+15:50:01	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Assets/Stocks -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Assets/Stocks.html
+15:50:02	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/competition/july2022 -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/competition/july2022.html
+15:50:03	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Education/LiveTrainingSessions -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Education/LiveTrainingSessions.html
+15:50:04	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Education/WhatIsForex -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Education/WhatIsForex.html
+15:50:05	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Education/Dictionary -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Education/Dictionary.html
+15:50:06	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Trading/DepositOptions -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Trading/DepositOptions.html
+15:50:07	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Trading/LeverageMargin -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Trading/LeverageMargin.html
+15:50:08	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Trading/Platforms -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Trading/Platforms.html
+15:50:09	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Trading/AssetsExpiration -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Trading/AssetsExpiration.html
+15:50:10	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/Trading/Spreads -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/Trading/Spreads.html
+15:50:11	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/About/about-us -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/About/about-us.html
+15:50:12	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/About/kyc-policy -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/About/kyc-policy.html
+15:50:13	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/About/aml-policy -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/About/aml-policy.html
+15:50:14	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/About/risk-disclosure -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/About/risk-disclosure.html
+15:50:15	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/tr/About/contact-us -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/tr/About/contact-us.html
+15:50:16	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/prize_img.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/prize_img.png
+15:50:16	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/prize_img.png
+15:50:16	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/feature1.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/feature1.png
+15:50:17	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/feature2.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/feature2.png
+15:50:18	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/feature3.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/feature3.png
+15:50:19	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/feature4.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/feature4.png
+15:50:20	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/feature5.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/feature5.png
+15:50:21	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/feature6.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/feature6.png
+15:50:22	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/trading-platform.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/trading-platform.png
+15:50:23	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/account_step1.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/account_step1.png
+15:50:24	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/account_step2.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/account_step2.png
+15:50:25	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/account_step3.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/account_step3.png
+15:50:26	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/account_step3.png
+15:50:27	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/cashback.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/cashback.png
+15:50:28	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/cashback.png
+15:50:29	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/economic-calender-mobiles.png?v=1 -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/economic-calender-mobiles3860.png
+15:50:29	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/live-markets.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/live-markets.png
+15:50:29	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/economic-calender-mobiles3860.png
+15:50:29	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/live-markets.png
+15:50:30	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+15:50:30	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+15:50:31	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Scripts/jquery-3.4.1.min.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Scripts/jquery-3.4.1.min.js
+15:50:31	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Scripts/jquery-3.4.1.min.js
+15:50:32	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Scripts/popper.min.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Scripts/popper.min.js
+15:50:32	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Scripts/popper.min.js
+15:50:33	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Scripts/bootstrap.min.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Scripts/bootstrap.min.js
+15:50:33	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Scripts/bootstrap.min.js
+15:50:34	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Scripts/sidemenu.js?v=2 -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Scripts/sidemenu5e1f.js
+15:50:34	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Scripts/sidemenu5e1f.js
+15:50:35	Info: 	engine: transfer-status: link recorded: https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js
+15:50:35	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js
+15:50:36	Info: 	engine: transfer-status: link recorded: https://unpkg.com/aos@2.3.1/dist/aos.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/unpkg.com/aos@2.3.1/dist/aos.js
+15:50:36	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/unpkg.com/aos@2.3.1/dist/aos.js
+15:50:36	Info: 	engine: transfer-status: link recorded: https://cdn.livechatinc.com/tracking.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/cdn.livechatinc.com/tracking.js
+15:50:37	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/cdn.livechatinc.com/tracking.js
+15:50:37	Info: 	Warning: could not detect encoding for: https://www.bndmarkets.com/Content/Css/bootstrap.min.css
+15:50:37	Info: 	engine: check-html: https://www.bndmarkets.com/Content/Css/bootstrap.min.css
+15:50:37	Info: 	Warning: could not detect encoding for: https://www.bndmarkets.com/Content/Css/main.css?v=17
+15:50:37	Info: 	engine: check-html: https://www.bndmarkets.com/Content/Css/main.css?v=17
+15:50:38	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/down_arrow.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/down_arrow.png
+15:50:38	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/down_arrow.png
+15:50:39	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/webtrader_icon.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/webtrader_icon.png
+15:50:41	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/flags/flags_25.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/flags/flags_25.png
+15:50:41	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/flags/flags_25.png
+15:50:43	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/banner_july2022_1920.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/banner_july2022_1920.png
+15:50:43	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/banner_july2022_1920.png
+15:50:44	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/footer_bg.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/footer_bg.png
+15:50:45	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/banner_1_1920.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/banner_1_1920.png
+15:50:45	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/banner_1_1920.png
+15:50:45	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/trading_central.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/trading_central.png
+15:50:45	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/trading_central.png
+15:50:45	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/images/social-ico.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/images/social-ico.png
+15:50:46	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/images/social-ico.png
+15:50:47	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/banner_1_768.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/banner_1_768.png
+15:50:47	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/banner_1_768.png
+15:50:47	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/banner_july2022_768.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/banner_july2022_768.png
+15:50:47	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/banner_july2022_768.png
+15:50:49	Info: 	Warning: could not detect encoding for: https://www.bndmarkets.com/Content/Css/swiper.min.css
+15:50:49	Info: 	engine: check-html: https://www.bndmarkets.com/Content/Css/swiper.min.css
+15:50:49	Error: 	"Not Found" (404) at link https://www.bndmarkets.com/Content/Css/style.tr.css?v=2 (from https://www.bndmarkets.com/tr/)
+15:50:49	Info: 	Warning: could not detect encoding for: https://www.bndmarkets.com/Content/Css/sidemenu.css?v=1.2
+15:50:49	Info: 	engine: check-html: https://www.bndmarkets.com/Content/Css/sidemenu.css?v=1.2
+15:50:49	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/trading_tools_bg_sm_1.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/trading_tools_bg_sm_1.png
+15:50:49	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/trading_tools_bg_sm_1.png
+15:50:50	Info: 	engine: transfer-status: link recorded: https://seeklogo.com/images/G/google-logo-28FA7991AF-seeklogo.com.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/seeklogo.com/images/G/google-logo-28FA7991AF-seeklogo.com.png
+15:50:50	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/seeklogo.com/images/G/google-logo-28FA7991AF-seeklogo.com.png
+15:50:51	Info: 	Warning: could not detect encoding for: https://www.bndmarkets.com/Content/Fonts/poppins.css
+15:50:51	Info: 	engine: check-html: https://www.bndmarkets.com/Content/Fonts/poppins.css
+15:50:51	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/arrow-down-orange.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/arrow-down-orange.png
+15:50:51	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/arrow-down-orange.png
+15:50:52	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-SemiBold.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-SemiBold.ttf
+15:50:52	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-SemiBold.ttf
+15:50:52	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-BlackItalic.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-BlackItalic.ttf
+15:50:52	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-BlackItalic.ttf
+15:50:54	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-ExtraBoldItalic.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-ExtraBoldItalic.ttf
+15:50:54	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-ExtraBoldItalic.ttf
+15:50:54	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-ThinItalic.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-ThinItalic.ttf
+15:50:54	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-ThinItalic.ttf
+15:50:56	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-LightItalic.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-LightItalic.ttf
+15:50:56	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-LightItalic.ttf
+15:50:57	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-Italic.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Italic.ttf
+15:50:57	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Italic.ttf
+15:50:58	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-Medium.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Medium.ttf
+15:50:58	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Medium.ttf
+15:50:59	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-Regular.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Regular.ttf
+15:50:59	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Regular.ttf
+15:51:00	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-Black.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Black.ttf
+15:51:00	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Black.ttf
+15:51:00	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-ExtraLightItalic.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-ExtraLightItalic.ttf
+15:51:00	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-ExtraLightItalic.ttf
+15:51:02	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-SemiBoldItalic.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-SemiBoldItalic.ttf
+15:51:02	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-SemiBoldItalic.ttf
+15:51:03	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-BoldItalic.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-BoldItalic.ttf
+15:51:03	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-BoldItalic.ttf
+15:51:04	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-MediumItalic.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-MediumItalic.ttf
+15:51:04	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-MediumItalic.ttf
+15:51:05	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-Thin.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Thin.ttf
+15:51:05	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Thin.ttf
+15:51:06	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-Light.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Light.ttf
+15:51:06	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Light.ttf
+15:51:07	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-Bold.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Bold.ttf
+15:51:07	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-Bold.ttf
+15:51:07	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-ExtraLight.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-ExtraLight.ttf
+15:51:07	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-ExtraLight.ttf
+15:51:09	Info: 	engine: check-html: https://unpkg.com/aos@2.3.1/dist/aos.css
+15:51:09	Info: 	engine: check-html: https://www.bndmarkets.com/tr/About/terms-and-conditions
+15:51:09	Info: 	engine: check-html: https://www.bndmarkets.com/tr/About/privacy-policy
+15:51:09	Error: 	"Not Found" (404) at link https://www.bndmarkets.com/tr/About/risk-disclousre (from https://www.bndmarkets.com/tr/)
+15:51:09	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Assets/Commodities
+15:51:09	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Fonts/Poppins-ExtraBold.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-ExtraBold.ttf
+15:51:09	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Fonts/Poppins-ExtraBold.ttf
+15:51:09	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/commodities-icons.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/commodities-icons.png
+15:51:11	Info: 	engine: transfer-status: link recorded: https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.0/js/utils.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.0/js/utils.js
+15:51:11	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.0/js/utils.js
+15:51:12	Info: 	engine: transfer-status: link recorded: https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.0/js/intlTelInput.min.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.0/js/intlTelInput.min.js
+15:51:12	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.0/js/intlTelInput.min.js
+15:51:12	Info: 	engine: transfer-status: link error (302, 'Found'): https://unpkg.com/sweetalert/dist/sweetalert.min.js
+15:51:14	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Assets/Cryptocurrencies
+15:51:14	Info: 	engine: transfer-status: link recorded: https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js
+15:51:14	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js
+15:51:14	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/cryptocurrencies-icons.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/cryptocurrencies-icons.png
+15:51:15	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Assets/Currencies
+15:51:15	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Assets/ETF
+15:51:15	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/etf-icons.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/etf-icons.png
+15:51:16	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Assets/Indices
+15:51:17	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Assets/Stocks
+15:51:17	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/indices-icons.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/indices-icons.png
+15:51:17	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/indices-icons.png
+15:51:18	Info: 	engine: check-html: https://www.bndmarkets.com/tr/competition/july2022
+15:51:18	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/stocks-icons.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/stocks-icons.png
+15:51:18	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/stocks-icons.png
+15:51:18	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/favicon.png?v=1111 -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/faviconf00a.png
+15:51:19	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/faviconf00a.png
+15:51:20	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/competition/css/bootstrap.min.css -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/bootstrap.min.css
+15:51:20	Info: 	engine: transfer-status: link error (404, 'Not Found'): https://www.bndmarkets.com/Content/Css/fonts.css?v=1
+15:51:22	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/competition/css/main.css?v=2 -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/main5e1f.css
+15:51:22	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/content/competition/imgs/ico-1.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/content/competition/imgs/ico-1.png
+15:51:23	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/content/competition/imgs/ico-1.png
+15:51:23	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/content/competition/imgs/ico-2.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/content/competition/imgs/ico-2.png
+15:51:24	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/content/competition/imgs/ico-3.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/content/competition/imgs/ico-3.png
+15:51:25	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/content/competition/imgs/ico-4.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/content/competition/imgs/ico-4.png
+15:51:27	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/content/competition/imgs/ico-5.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/content/competition/imgs/ico-5.png
+15:51:27	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/content/competition/imgs/ico-5.png
+15:51:27	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/go-up-arrow.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/go-up-arrow.png
+15:51:29	Info: 	engine: transfer-status: link recorded: https://code.jquery.com/jquery-3.3.1.min.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/code.jquery.com/jquery-3.3.1.min.js
+15:51:29	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/code.jquery.com/jquery-3.3.1.min.js
+15:51:30	Info: 	engine: transfer-status: link recorded: https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js
+15:51:30	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js
+15:51:31	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Education/LiveTrainingSessions
+15:51:31	Info: 	engine: transfer-status: link recorded: https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js
+15:51:31	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js
+15:51:33	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/live-sessions.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/live-sessions.png
+15:51:33	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/live-sessions.png
+15:51:33	Info: 	engine: transfer-status: link error (404, 'Not Found'): https://www.bndmarkets.com/Content/images/ajax-loader.gif
+15:51:34	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/live-session-bg.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/live-session-bg.png
+15:51:34	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/live-session-bg.png
+15:51:34	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/live-session-img1.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/live-session-img1.png
+15:51:35	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/live-session-img1.png
+15:51:35	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/live-session-img2.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/live-session-img2.png
+15:51:36	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/live-session-img3.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/live-session-img3.png
+15:51:37	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/live-session-img3.png
+15:51:37	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Education/WhatIsForex
+15:51:38	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/forex-img1.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/forex-img1.png
+15:51:38	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/forex-img1.png
+15:51:38	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/forex-img2.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/forex-img2.png
+15:51:39	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/forex-img2.png
+15:51:40	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/forex-img4.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/forex-img4.png
+15:51:41	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/forex-img4.png
+15:51:41	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/forex-img3.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/forex-img3.png
+15:51:41	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/forex-img3.png
+15:51:42	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Education/Dictionary
+15:51:42	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/dictionary-header.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/dictionary-header.png
+15:51:43	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/dictionary-header.png
+15:51:43	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Trading/DepositOptions
+15:51:43	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/forex-img5.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/forex-img5.png
+15:51:43	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/forex-img5.png
+15:51:44	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Trading/LeverageMargin
+15:51:44	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Trading/Platforms
+15:51:44	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/deposit-icons.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/deposit-icons.png
+15:51:44	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/deposit-icons.png
+15:51:44	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/platforms-icons.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/platforms-icons.png
+15:51:45	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Trading/AssetsExpiration
+15:51:46	Info: 	engine: check-html: https://www.bndmarkets.com/tr/Trading/Spreads
+15:51:46	Info: 	engine: check-html: https://www.bndmarkets.com/tr/About/about-us
+15:51:46	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Scripts/lodash.min.js -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Scripts/lodash.min.js
+15:51:46	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Scripts/lodash.min.js
+15:51:47	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/aboutus-icons1.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/aboutus-icons1.png
+15:51:47	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/aboutus-icons1.png
+15:51:47	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/aboutus-icons2.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/aboutus-icons2.png
+15:51:50	Info: 	engine: check-html: https://www.bndmarkets.com/tr/About/kyc-policy
+15:51:50	Info: 	engine: check-html: https://www.bndmarkets.com/tr/About/aml-policy
+15:51:50	Info: 	engine: check-html: https://www.bndmarkets.com/tr/About/risk-disclosure
+15:51:50	Info: 	engine: check-html: https://www.bndmarkets.com/tr/About/contact-us
+15:51:51	Info: 	Warning: could not detect encoding for: https://www.bndmarkets.com/Content/competition/css/bootstrap.min.css
+15:51:51	Info: 	engine: check-html: https://www.bndmarkets.com/Content/competition/css/bootstrap.min.css
+15:51:51	Error: 	"Not Found" (404) at link https://www.bndmarkets.com/Content/Css/fonts.css?v=1 (from https://www.bndmarkets.com/tr/competition/july2022)
+15:51:51	Info: 	Warning: could not detect encoding for: https://www.bndmarkets.com/Content/competition/css/main.css?v=2
+15:51:51	Info: 	engine: check-html: https://www.bndmarkets.com/Content/competition/css/main.css?v=2
+15:51:51	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/about-us-img1.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/about-us-img1.png
+15:51:51	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/about-us-img1.png
+15:51:51	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/email_phone.png?v=1 -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/email_phone3860.png
+15:51:51	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/about-us-img2.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/about-us-img2.png
+15:51:52	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/email_phone3860.png
+15:51:52	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/about-us-img2.png
+15:51:53	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/competition/css/klavika-bold.otf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/klavika-bold.otf
+15:51:53	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/klavika-bold.otf
+15:51:54	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/competition/css/Druk-XCondSuperItalic.otf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/Druk-XCondSuperItalic.otf
+15:51:54	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/Druk-XCondSuperItalic.otf
+15:51:55	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/competition/css/DrukWeb-Medium.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/DrukWeb-Medium.ttf
+15:51:55	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/DrukWeb-Medium.ttf
+15:51:56	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/competition/css/DrukWeb-MediumItalic.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/DrukWeb-MediumItalic.ttf
+15:51:56	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/DrukWeb-MediumItalic.ttf
+15:51:57	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/competition/css/DrukWeb-HeavyItalic.ttf -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/DrukWeb-HeavyItalic.ttf
+15:51:57	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/css/DrukWeb-HeavyItalic.ttf
+15:51:58	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/banner_3_1920.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/banner_3_1920.png
+15:51:58	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/banner_3_1920.png
+15:51:59	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/competition/imgs/bg.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/imgs/bg.png
+15:51:59	Info: 	File successfully written in background: /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/competition/imgs/bg.png
+15:52:00	Error: 	"Not Found" (404) at link https://www.bndmarkets.com/Content/images/ajax-loader.gif (from https://www.bndmarkets.com/tr/Education/LiveTrainingSessions)
+15:52:00	Info: 	engine: transfer-status: link recorded: https://www.bndmarkets.com/Content/Images/banner_March2022_768.png -> /storage/emulated/0/HTTrack/Websites/BmcTrader/www.bndmarkets.com/Content/Images/banner_March2022_768.png
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 19 seconds : 136 links scanned, 131 files written (14863074 bytes overall) [13054896 bytes received at 93920 bytes/sec], 2621425 bytes transferred using HTTP compression in 54 files, ratio 25%, 6.2 requests per connection
+(4 errors, 0 warnings, 255 messages)
+15:52:00	Info: 	engine: end
+15:52:00	Info: 	hashtable "back_new" summary: size=128 (lg2=7) used=0 stash-size=0 pool-size=100 pool-capacity=512 pool-used=0 writes=56 (new=56) moved=12 stashed=0 max-stash-size=0 avg-moved=0.214286 rehash=3 pool-compact=5 pool-realloc=5 memory=2936
+15:52:00	Info: 	hashtable "cache_hashtable" summary: size=16 (lg2=4) used=0 stash-size=0 pool-size=0 pool-capacity=0 pool-used=0 writes=0 (new=0) moved=0 stashed=0 max-stash-size=0 avg-moved=nan rehash=0 pool-compact=0 pool-realloc=0 memory=632
+15:52:00	Info: 	hashtable "cache_tests" summary: size=16 (lg2=4) used=2 stash-size=0 pool-size=110 pool-capacity=256 pool-used=110 writes=2 (new=2) moved=0 stashed=0 max-stash-size=0 avg-moved=0 rehash=0 pool-compact=0 pool-realloc=1 memory=888
+15:52:00	Info: 	hashtable "hash->sav" summary: size=512 (lg2=9) used=137 stash-size=0 pool-size=0 pool-capacity=0 pool-used=0 writes=137 (new=137) moved=75 stashed=1 max-stash-size=1 avg-moved=0.547445 rehash=5 pool-compact=0 pool-realloc=0 memory=8568
+15:52:00	Info: 	hashtable "hash->adrfil" summary: size=512 (lg2=9) used=137 stash-size=0 pool-size=0 pool-capacity=0 pool-used=0 writes=137 (new=137) moved=49 stashed=0 max-stash-size=0 avg-moved=0.357664 rehash=5 pool-compact=0 pool-realloc=0 memory=8568
+15:52:00	Info: 	hashtable "hash->former_adrfil" summary: size=16 (lg2=4) used=2 stash-size=0 pool-size=0 pool-capacity=0 pool-used=0 writes=137 (new=2) moved=0 stashed=0 max-stash-size=0 avg-moved=0 rehash=0 pool-compact=0 pool-realloc=0 memory=632

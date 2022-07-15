@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.bndmarkets.com	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	lgiuqcbxuqf1um0a5sfly4zk
+www.bndmarkets.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.bndmarkets.com	TRUE	/	FALSE	1999999999	_fazfx_culture	tr
+

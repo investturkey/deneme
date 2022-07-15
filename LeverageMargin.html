@@ -1,0 +1,856 @@
+
+<!DOCTYPE html>
+
+<html lang="tr">
+
+<!-- Mirrored from www.bndmarkets.com/tr/Trading/LeverageMargin by HTTrack Website Copier/3.x [XR&CO'2017], Fri, 15 Jul 2022 12:51:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <script>window.alert = function () { return; }</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/png" href="../../favicon.png" />
+    <title>BNDMarkets</title>
+    <script>
+        if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1")) {
+            if (location.protocol != 'LeverageMargin.html'
+            ) {
+                var url = 'https:' + window.location.href.substring(window.location.protocol.length);
+                console.log(url);
+                if (!/\.?www./g.test(url)) {
+                    url = url.replace("://", "://www.");
+                }
+                location.href = url;
+            } else {
+                var url = 'https:' + window.location.href.substring(window.location.protocol.length);
+                console.log(url);
+                if (!/\.?www./g.test(url)) {
+                    url = url.replace("://", "://www.");
+                    location.href = url;
+                }
+            }
+        }
+
+    </script>
+
+
+    <link href="../../Content/Css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/Css/main1c07.css" rel="stylesheet" />
+    <link href="../../Content/Css/swiper.min.css" rel="stylesheet" />
+    <link href="../../Content/Css/style.tr5e1f.html" rel="stylesheet" />
+    <link href="../../Content/Css/sidemenu7839.css" rel="stylesheet" />
+    <link href="../../Content/Fonts/poppins.css" rel="stylesheet" />
+    <link href="../../../external.html?link=https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800&amp;display=swap" rel="stylesheet">
+    <link href="../../../unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+
+
+    
+    <style>
+        header {
+            background-color: #662d91;
+            margin-top: 100px;
+            padding: 75px 0 75px 0;
+        }
+        header h2 {
+            font-family: 'Akhand Black';
+            font-size: 50px;
+            text-align: center;
+            color: white;
+        }
+        #section1 {
+            background: white;
+            text-align: center;
+        }
+        #section1 .section-content{
+            max-width: 1000px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        #section1 h2 {
+            font-family: 'Akhand Black';
+            font-size: 50px;
+            color: black;
+            margin-bottom: 25px;
+        }
+      
+        #section1 .line {
+            height: 3px;
+            width: 90%;
+            background: #1b8be1;
+            background: -moz-linear-gradient(to left, #1b8be1 0%, #1ceac4 100%);
+            background: -webkit-linear-gradient(to left, #1b8be1 0%, #1ceac4 100%);
+            background: linear-gradient(to left, #1b8be1 0%, #1ceac4 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b8be1', endColorstr='#1ceac4', GradientType=1);
+            margin: 15px auto;
+            display: block;
+        }
+      
+    </style>
+
+
+
+
+    </head>
+<body>
+
+    <!-- The Login Modal -->
+    <div class="modal fade" id="login-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header flex-column">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <strong class="modal-title">Giriş</strong>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div embeddable-pp-login deep-link="https://trading.bndmarkets.com"></div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer flex-column">
+                    <p>
+                        &#220;ye değil misiniz?
+                        <a class="link-signup-login" href="#">
+                            <strong>Hesap A&#231;</strong>
+                        </a>
+                    </p>
+                    <div class="foter_links">
+                        <a target="_blank" href="../About/terms-and-conditions.html" title="Hizmet Koşullarını">Hizmet Koşullarını</a>,
+&nbsp;<a target="_blank" href="../About/privacy-policy.html" title="Gizlilik Politikasını">Gizlilik Politikasını</a>, <a target="_blank"
+    href="../About/risk-disclousre.html" title="Risk Açıklamasını">Risk Açıklamasını</a> okudum ve kabul ediyorum.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- The Signup Modal -->
+    <div class="modal fade" id="signup-modal">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header flex-column">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <strong class="modal-title">Hesap a&#231;</strong>
+                </div>
+                <div class="modal-body">
+                    <div embeddable-pp-registration account-type="standard" form-type="full" reg-method="local" reg-source="site" class="embeddable-widget"></div>
+                </div>
+                <div class="modal-footer flex-column">
+                    <p>
+                        Hesabınız var mı?
+                        <a href="#" class="link-signup-login">
+                            <strong>Giriş</strong>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script async data-language="tr-TR" data-apikey="QrZsUwECpiyRedIclhB7oP3EQvNMmOW1" type="text/javascript" src="../../../external.html?link=https://loaderv3.bndmarkets.com/loader/embedded" id="loader-embedded"></script>
+<div class="body-content">
+
+    <nav class="section" id="navbar-top">
+        <div class="navbar-content h-100">
+            <div class="d-flex align-items-center justify-content-end justify-content-lg-between h-100">
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+                <a href="../../../external.html?link=https://www.bndmarkets.com/" target="_self" class="mr-auto mr-lg-0">
+                    <div class="logo-wrapper">
+                        <img class="white" src="../../Content/Images/logo_light.png" />
+                        
+                        
+                    </div>
+                </a>
+
+                <div class="d-flex justify-content-between align-items-center h-100">
+                    <div class="top-menu mr-5">
+                        <ul class="list-unstyled list-inline">
+                            <li class="drop">
+                                <a>
+                                    Yatırım Ara&#231;ları
+                                    
+                                </a>
+
+                                <div class="dropdown-content clearfix">
+                                    <ul class="list-unstyled">
+
+                                        <li>
+                                            <a target="_self" href="../Assets/Commodities.html">
+                                                Emtialar
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a target="_self" href="../Assets/Cryptocurrencies.html">
+                                                Kripto Paralar
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_self" href="../Assets/Currencies.html">
+                                                Pariteler
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_self" href="../Assets/ETF.html">
+                                                ETF
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_self" href="../Assets/Indices.html">
+                                                Endeksler
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_self" href="../Assets/Stocks.html">
+                                                Hisse Senedi
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                                <li class="drop">
+                                    <a target="_self" href="../competition/july2022.html">
+                                        Yarışma
+
+                                    </a>
+                                </li>
+
+                            <li class="drop">
+                                <a>
+                                    Eğitim
+                                    
+                                </a>
+
+                                <div class="dropdown-content clearfix">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a target="_self" href="../Education/LiveTrainingSessions.html">
+                                                Canlı İşlem
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_self" href="../Education/WhatIsForex.html">
+                                                Forex Nedir?
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a target="_self" href="../Education/Dictionary.html">
+                                                Forex S&#246;zl&#252;ğ&#252;
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="drop">
+                                <a>
+                                    Yatırım
+                                    
+                                </a>
+
+                                <div class="dropdown-content clearfix">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a target="_self" href="DepositOptions.html">
+                                                Fonlama Y&#246;ntemleri
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_self" href="LeverageMargin.html">
+                                                Kaldıra&#231; &amp; Teminat
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_self" href="Platforms.html">
+                                                Platformlar
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a target="_self" href="AssetsExpiration.html">
+                                                Vade Sonu
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a target="_self" href="Spreads.html">
+                                                Spreads
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="drop">
+                                <a>
+                                    Hakkımızda
+                                    
+                                </a>
+                                <div class="dropdown-content clearfix">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a target="_self" href="../About/about-us.html">
+                                                Hakkımızda
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a target="_self" href="../About/kyc-policy.html">
+                                                KYC
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_self" href="../About/aml-policy.html">
+                                                AML
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_self" href="../About/risk-disclosure.html">
+                                                Risk Disclosure
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_self" href="../About/terms-and-conditions.html">
+                                                Terms And Conditions
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_self" href="../About/privacy-policy.html">
+                                                Privacy Policy
+                                            </a>
+                                        </li>
+
+                                        
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="drop">
+                                <a target="_self" href="../About/contact-us.html">
+                                    İletişim
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-group-register mr-sm-3 mr-lg-5">
+                        <a href="#" data-toggle="modal" data-target="#login-modal" class="btn-login text-uppercase">Giriş</a>
+                        <a href="#" data-toggle="modal" data-target="#signup-modal" class="btn-signup text-uppercase">Hesap a&#231;</a>
+                        <a href="../../../external.html?link=https://trading.bndmarkets.com/tr" class="btn-webtrader text-uppercase">
+                            
+                            Webtrader
+                        </a>
+
+                    </div>
+                    <div class="lang-menu d-none d-md-block mr-3 mr-lg-0 order-first order-lg-last">
+                        <div class=" d-flex align-items-center">
+                            <div class="divider"></div>
+                            <div class="btn-group-lang">
+                                <span class="text-uppercase">
+                                    tr
+                                </span>
+                                <span id="" class="arrow"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown-content clearfix">
+                            <ul class="list-unstyled">
+<form action="../../../external.html?link=https://www.bndmarkets.com/tr/Home/SetCulture/languageForm" method="post">                                    <li>
+                                        <label for="en" id="en-label" class="d-flex align-items-center">
+
+                                            <input name="culture" id="en" value="en" type="radio" />
+                                            English
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="tr" id="tr-label" class="d-flex align-items-center">
+
+                                            <input name="culture" id="tr" value="tr" type="radio" />
+                                            Turkish
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="de" id="de-label" class="d-flex align-items-center">
+
+                                            <input name="culture" id="de" value="de" type="radio" />
+                                            German
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="ar" id="ar-label" class="d-flex align-items-center">
+
+                                            <input name="culture" id="ar" value="ar" type="radio" />
+                                            Arabic
+                                        </label>
+                                    </li>
+</form>                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+<div id="page-content">
+<div class="over-menu"></div>
+<div class="desk-menu">
+
+<nav class="box-menu d-lg-none">
+<div class="menu-container">
+    
+    <div class="menu-header-container">
+        <ul id="cd-primary-nav" class="menu">
+            <li class="menu-item">
+                <a href="../../../external.html?link=https://trading.bndmarkets.com/tr" target="_blank">Webtrader</a>
+
+            </li>
+            <li class="menu-item menu-item-has-children">
+                <a href="#">Yatırım Ara&#231;ları</a>
+                <ul class="sub-menu">
+                    <li class="menu-item">
+                        <a target="_self" href="../Assets/Currencies.html">Pariteler</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../Assets/Commodities.html">Emtialar</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../Assets/Cryptocurrencies.html">Kripto Paralar</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../Assets/Stocks.html">Hisse Senedi</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../Assets/Indices.html">Endeksler</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../Assets/ETF.html">ETF</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a target="_self" href="../competition/july2022.html">
+                    Yarışma
+
+                </a>
+
+            </li>
+            <li class="menu-item menu-item-has-children">
+                <a href="#">Eğitim</a>
+                <ul class="sub-menu">
+
+                    <li class="menu-item">
+                        <a target="_self" href="../Education/LiveTrainingSessions.html">Canlı İşlem</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../Education/Dictionary.html">Forex S&#246;zl&#252;ğ&#252;</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../Education/WhatIsForex.html">Forex Nedir?</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item menu-item-has-children">
+                <a href="#">Yatırım</a>
+                <ul class="sub-menu">
+
+                    <li class="menu-item">
+                        <a target="_self" href="LeverageMargin.html">Kaldıra&#231; &amp; Teminat</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a target="_self" href="DepositOptions.html">Fonlama Y&#246;ntemleri</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a target="_self" href="AssetsExpiration.html">Vade Sonu</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a target="_self" href="Platforms.html">Platformlar</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a target="_self" href="Spreads.html">Spreads</a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="menu-item menu-item-has-children">
+                <a href="#">Hakkımızda</a>
+                <ul class="sub-menu">
+                    <li class="back">
+                        <a href="#">Hakkımızda</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a target="_self" href="../About/about-us.html">Hakkımızda</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../About/kyc-policy.html">KYC Policy</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../About/aml-policy.html">AML</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../About/risk-disclosure.html">Risk Disclosure</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../About/terms-and-conditions.html">Terms And Conditions</a>
+                    </li>
+                    <li class="menu-item">
+                        <a target="_self" href="../About/privacy-policy.html">Privacy Policy</a>
+                    </li>
+
+
+
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a target="_self" href="../About/contact-us.html">İletişim</a>
+
+            </li>
+            <li class="menu-item menu-item-has-children">
+                <a href="#">tr</a>
+                <ul class="list-unstyled sub-menu">
+<form action="../../../external.html?link=https://www.bndmarkets.com/tr/Home/SetCulture/languageForm" method="post">                        <li class="menu-item">
+                            <label for="en" id="en-label" class="d-flex align-items-center">
+
+                                <input name="culture" id="en" value="en" type="radio"/>
+                                English
+                            </label>
+                        </li>
+                        <li class="menu-item">
+                            <label for="tr" id="tr-label" class="d-flex align-items-center">
+
+                                <input name="culture" id="tr" value="tr" type="radio"/>
+                                Turkish
+                            </label>
+                        </li>
+                        <li class="menu-item">
+                            <label for="it" id="it-label" class="d-flex align-items-center">
+
+                                <input name="culture" id="it" value="it" type="radio"/>
+                                Italian
+                            </label>
+                        </li>
+                        <li class="menu-item">
+                            <label for="es" id="es-label" class="d-flex align-items-center">
+
+                                <input name="culture" id="es" value="es" type="radio"/>
+                                Spanish
+                            </label>
+                        </li>
+                        <li class="menu-item">
+                            <label for="ja" id="ja-label" class="d-flex align-items-center">
+
+                                <input name="culture" id="ja" value="ja" type="radio"/>
+                                Japanese
+                            </label>
+                        </li>
+                        <li class="menu-item">
+                            <label for="ru" id="ru-label" class="d-flex align-items-center">
+
+                                <input name="culture" id="ru" value="ru" type="radio"/>
+                                Russian
+                            </label>
+                        </li>
+                        <li class="menu-item">
+                            <label for="ar" id="ar-label" class="d-flex align-items-center">
+
+                                <input name="culture" id="ar" value="ar" type="radio"/>
+                                Arabic
+                            </label>
+                        </li>
+</form>                </ul>
+            </li>
+            <li class="line"></li>
+        </ul>
+    </div>
+    <div class="menu-foot">
+
+    </div>
+</div>
+
+</nav>
+</div>
+
+
+
+<header class="section">
+    <div class="section-content">
+        
+        <img src="../../Content/Images/deposit-icons.png" class="img-fluid d-block m-auto"/>
+
+    </div>
+</header>
+
+<section class="section" id="section1">
+    <div class="section-content">
+        <h2>
+            Kaldıraç & Teminat
+        </h2>
+        <p>
+            Marjin olarak da bilinen teminat bir yatırım aracında pozisyon açabilmek için gereken minimum yatırım miktarını belirtir. Bu tutar yatırım aracının fiyatı, kaldıraç oranı ve işlemin hacmine göre değişir.
+            <span class="line"></span>
+            <strong>Marjin hesaplaması şu şekilde yapılır: Marjin= (Yatırım aracı fiyatı* İşlem Hacmi)/ Kaldıraç Oranı</strong>
+            <span class="line"></span>
+            Örnek olarak EUR/USD paritesinde 1.1 seviyesinde 1 lot alım yaptınız.
+            <br>Bu durumda Marjin: [100.000(1 LOT)*1.1 (Parite fiyatı)]/ (kaldıraç) 400 = 275 USD teminat yani Marjindir.
+            <br><br>
+            Burada kullanılan yani used marjin 275 USD’dir. EUR/USD 1.1. seviyesindeyken 1 lotluk pozisyon açabilmek için sistemin bloke ettiği tutar sadece bu olacaktır (1/400 Kaldıraçta) 10.000 USD yatırdığınızı ve sadece yukarıdaki işlemi açtığınızı varsayarsak, kullanılabilir yani usable marjin 10.000-275 USD yani 9725 USD olacaktır.
+            <br><br>
+            Gelişen teknolojinin katkısıyla her geçen gün yatırımcılar kaldıraçlı türev piyasalarda kolayca işlem yapma şansı buldular. Teminatınıza bağlı olarak size daha yüksek oranda pozisyon açma fırsatı tanıyan Kaldıraç imkanı, daha yüksek hacimli işlem yapma fırsatından yararlanmak isteyen büyük-küçük tüm yatırımcıların ilgisi çekmiştir.
+            <br><br>
+            Örnek ile anlatmak gerekirse, 1:400 kaldıraç oranı seçeneğinden yararlanmak isteyen yatırımcının teminatının 10.000 USD olduğunu varsayalım. Bu teminat ile 1:400 kaldıraçla açabileceği maksimum pozisyonu değeri 400 * 10.000 USD yani 4.000.000 USD’dir..
+            <br><br>
+            Kaldıraç oranlarının yüksekliği ve Forex riskli mi sorusuna cevap ararsak, bilinenin aksini görebiliriz.
+            <br><br>
+            Örnek verirsek, 1:1 kaldıraçlı bir işlemde 100.000 USD yatıran bir yatırımcı EUR/USD paritesinde 1 lotluk (100.000 USD) pozisyon açmak istediğinde teminatının tamamını kullanması gerekir. Geriye serbest teminatı da kalmaz.
+            <br><br>
+            Halbuki 1:100 kaldıraç ile hesap açmış olsaydı; 1000 USD işlem için teminat olacak, 99000 USD serbest teminat olacaktı. Yani güvencesi olacaktı. Yani yüksek kaldıraç yüksek zarar aslında sektörün en büyük doğru zannedilen yanılgılarından biridir. 1 lot pozisyonun 1:1 kaldıraçtaki kar/zararı ile 1/100 kaldıraç seçimindeki pozisyonun karı/zararı aynıdır.
+            <br><br>
+            Kaldıraç, karın ya da zararın az/çok olmasına etki etmez, sadece başlangıç teminatı belirler.Ancak yatırımcı 99.000 USD’lik serbest teminatı ile yüksek lot oranları ile işlem açmaya devam ederse o zaman kaldıraç yatırımcı için risk oluşturabilir. Sınırlı pozisyon ile işlem açmaya devam ederek kar elde etmesi çok daha yüksek ihtimalde olacaktır. Kazanılan paranın miktarının alınan risk ile doğru orantılı olduğu hiçbir zaman unutulmamalıdır.
+            <br>Burada önemli olan risk düzeyini yatırımcılarımızın kendi inisiyatifinde mantıklı adımlarla ayarlamasıdır.
+        </p>
+    </div>
+</section>
+
+
+<footer class="section" id="footer">
+    <div class="section-content p-3 p-sm-5">
+
+        <div class="row">
+            <div class="col-12 col-md-4 d-flex justify-content-between flex-column">
+                <div class="logo mb-4 mb-md-0">
+                    <img src="../../Content/Images/logo_light.png" />
+                </div>
+                <div class="d-none d-md-flex flex-column">
+                    <div class="d-flex">
+                        
+
+
+
+                        <p class="">
+                            BUSINESS EMAIL:<br>
+                            <a href="../../../external.html?link=https://www.bndmarkets.com/cdn-cgi/l/email-protection#4c25222a230c2e2228212d3e2729383f622f2321">
+                                <span class="__cf_email__" data-cfemail="d7beb9b1b897b5b9b3bab6a5bcb2a3a4f9b4b8ba">[email&#160;protected]</span>
+                            </a>
+                        </p>
+
+                    </div>
+
+                    <div id="social-media-links" class="">
+                        <ul class="social-icons icon-zoom list-unstyled list-inline">
+                            <li>
+                                <a href="#">
+                                    <i class="social-ico social-ico-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="social-ico social-ico-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="social-ico social-ico-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="social-ico social-ico-insta"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-12 col-md">
+                <div id="footer-text">
+                    <p>
+                    Please note that trading with forex and/or cfds and/or other financial leveraged instruments incur a high level of risk and can result in the loss of all your capital and may therefore not be suitable for all investors. You should not risk more than you are prepared to lose and before you start trading please ensure you understand the high risks involved, take the level of your experience into consideration and seek independent advice if necessary. Our company does not provide such consultancy services. To read our full risk disclosure statement, please read our websites terms and conditions and risk disclosure.
+                </p>
+                <p>
+                    You hereby accept and declare that you are willing to undertake this risk and in no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.
+                </p>
+                
+
+                <p>
+                    <a target="_self" href="../../../external.html?link=https://www.bndmarkets.com/en/About/terms-and-conditions">Terms Of Use</a> | <a target="_self" href="../../../external.html?link=https://www.bndmarkets.com/en/About/privacy-policy"> Privacy Policy </a> | <a target="_self" href="../../../external.html?link=https://www.bndmarkets.com/en/About/risk-disclosure"> Risk Disclosure </a>
+                    <br/>
+                    Copyright © 2021 BNDMARKETS - All Rights Reserved
+                </p>
+                </div>
+
+                <div class="d-flex flex-column d-md-none">
+                    <div class="d-flex">
+                        
+
+
+
+                        <p class="">
+                            BUSINESS EMAIL:<br>
+                            <a href="../../../external.html?link=https://www.bndmarkets.com/cdn-cgi/l/email-protection#741d1a121b34161a101915061f1100075a171b19">
+                                <span class="__cf_email__" data-cfemail="2940474f46694b474d44485b424c5d5a074a4644">[email&#160;protected]</span>
+                            </a>
+                        </p>
+
+                    </div>
+
+                    <div id="social-media-links" class="">
+                        <ul class="social-icons icon-zoom list-unstyled list-inline">
+                            <li>
+                                <a href="#">
+                                    <i class="social-ico social-ico-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="social-ico social-ico-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="social-ico social-ico-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="social-ico social-ico-insta"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</footer>
+
+</div>
+</div>
+
+
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../../Scripts/jquery-3.4.1.min.js"></script>
+<script src="../../Scripts/popper.min.js"></script>
+<script src="../../Scripts/bootstrap.min.js"></script>
+<script src="../../Scripts/sidemenu5e1f.js" async></script>
+
+
+    
+
+
+<script async src="../../../cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js" onload="initSwiper()"></script>
+<script src="../../../unpkg.com/aos%402.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        delay: 150,
+    });
+</script>
+<script>
+
+    //    Initialize Swiper
+    function initSwiper() {
+        var swiper = new Swiper('.swiper-container-banner',
+            {
+                autoHeight: true,
+                spaceBetween: 30,
+                centeredSlides: true,
+                loop: true,
+                slidesPerView: 1,
+                effect: 'fade',
+                flipEffect: {
+                    rotate: 90,
+                    slideShadows: false,
+                },
+                autoplay: {
+                    delay: 500000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                }
+            });
+    }
+
+    jQuery(document).ready(function($) {
+        $(window).scroll(function() {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+        $("input[type='radio'][name='culture']")
+            .click(function() {
+                $(this).parents("form").submit(); // post form
+
+            });
+
+        $(document).on("click",
+            ".link-signup-login",
+            function() {
+                jQuery.noConflict();
+                $('#login-modal').modal('toggle');
+                $('#signup-modal').modal('toggle');
+            });
+    })
+</script>
+
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 13675362;;
+    (function(n, t, c) {
+        function i(n) { return e._h ? e._h.apply(null, n) : e._q.push(n) }
+
+        var e = {
+            _q: [],
+            _h: null,
+            _v: "2.0",
+            on: function() { i(["on", c.call(arguments)]) },
+            once: function() { i(["once", c.call(arguments)]) },
+            off: function() { i(["off", c.call(arguments)]) },
+            get: function() {
+                if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load.");
+                return i(["get", c.call(arguments)])
+            },
+            call: function() { i(["call", c.call(arguments)]) },
+            init: function() {
+                var n = t.createElement("script");
+                n.async = !0, n.type = "text/javascript", n.src = "../../../cdn.livechatinc.com/tracking.js", t.head.appendChild(n)
+            }
+        };
+        !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e
+    }(window, document, [].slice))
+</script>
+<noscript><a href="../../../external.html?link=https://www.livechatinc.com/chat-with/13675362/" rel="nofollow">Chat with us</a>, powered by <a href="../../../external.html?link=https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+<!-- End of LiveChat code -->
+
+</body>
+
+<!-- Mirrored from www.bndmarkets.com/tr/Trading/LeverageMargin by HTTrack Website Copier/3.x [XR&CO'2017], Fri, 15 Jul 2022 12:51:44 GMT -->
+</html>
